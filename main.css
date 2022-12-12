@@ -1,0 +1,36 @@
+body {
+    background: black;
+    margin: 0;
+}
+#main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+#logo {
+    width: 200px;
+    height: auto;
+}
+.col-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-text {
+    margin: 0;
+    color: #E4E4E4;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: consolas;
+}
+.small {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.margin-bottom {
+    margin-bottom: 0.4rem;
+}
